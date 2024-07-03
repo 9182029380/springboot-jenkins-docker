@@ -10,4 +10,10 @@ public class JenkinController {
         return "Hello how are you ";
     }
 
+    @GetMapping("/bye")
+    public String getBye(){
+        return "Bye Bye";
+    }
+
+
 }
