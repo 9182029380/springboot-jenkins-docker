@@ -14,6 +14,10 @@ public class JenkinController {
     public String getBye(){
         return "Bye Bye";
     }
+    @GetMapping("/hi")
+    public String getHi(){
+        return "Hi";
+    }
 
 
 }
